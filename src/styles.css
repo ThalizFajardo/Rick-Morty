@@ -135,3 +135,29 @@
   margin: 5px 0px 0 -16px;
   position: absolute;
 }
+
+
+/*queries*/
+@media screen and (min-width:300px) {
+  .residentsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .cardResidents {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+}
+
+@media screen and (min-width:600px) {
+  .residentsContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .residentsContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
